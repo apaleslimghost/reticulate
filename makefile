@@ -8,6 +8,3 @@ lib/%.js: src/%.js lib
 
 lib:
 	mkdir -p $@
-
-test: lib/test.js $(~lib-files)
-	node $<
