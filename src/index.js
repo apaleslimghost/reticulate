@@ -7,7 +7,7 @@ export const link = (obj, prop, {initializer}) => ({
 
 		return instance.fetch ? instance.fetch()
 		     : instance.toJSON ? instance.toJSON()
-				 : instance;
+		     : instance;
 	}
 });
 
